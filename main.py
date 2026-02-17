@@ -17,3 +17,14 @@ love_percentage = random.randint(-10, 100)
 time.sleep(2)
 
 print(f"{name1} and {name2} have a love percentage of {love_percentage}%!")
+
+if love_percentage < 0 and (name1.lower() == "dysel" or name2.lower() == "deysel"):
+    print("DYSEL YOUR DATING A 80 YEAR OLD MANN YOU BUMM!!!")
+elif love_percentage < 0:
+    print("Your love percentage is negative! Maybe it's time to reconsider your relationship.")
+elif love_percentage < 50:
+    print("Your love percentage is quite low. It might be worth working on your relationship.")
+elif love_percentage < 80:
+    print("Your love percentage is decent! Keep nurturing your relationship.")
+else:
+    print("Wow! Your love percentage is very high! You two are a great match!")
