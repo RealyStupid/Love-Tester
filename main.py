@@ -3,8 +3,8 @@ import time
 
 print("Welcome to the Love Calculator!")
 
-name1 = input("What is your name? ")
-name2 = input("What is your lovers name? ")
+name1 = input("What is your first name? ")
+name2 = input("What is your lovers first name? ")
 
 for i in range(1, 6):
     print(f"Processing Love Value: {i}/5", end="\r", flush=True)
@@ -18,8 +18,8 @@ time.sleep(2)
 
 print(f"{name1} and {name2} have a love percentage of {love_percentage}%!")
 
-if love_percentage < 0 and (name1.lower() == "dysel" or name2.lower() == "deysel"):
-    print("DYSEL YOUR DATING A 80 YEAR OLD MANN YOU BUMM!!!")
+if name1.lower() == "diezyl" or name2.lower() == "diezyl":
+    print("DIEZYL YOUR DATING A 80 YEAR OLD MAN YOU BUMM!!!")
 elif love_percentage < 0:
     print("Your love percentage is negative! Maybe it's time to reconsider your relationship.")
 elif love_percentage < 50:
